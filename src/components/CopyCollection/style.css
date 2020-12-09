@@ -1,0 +1,40 @@
+.copy-collection {
+    color: #fff;
+    padding: 100px 0;
+}
+
+.card-collection{
+    padding: 15px 0;
+}
+.card-container{
+    display: flex;
+    margin: 15px 0;
+    text-align: center;
+    align-items: center;
+}
+.card-copy--container{
+    text-align: center;
+}
+
+.card-img--container img{
+    width: 125px;
+    max-width: 100%;
+}
+.card-title, .card-copy{
+    margin-top: 15px;
+}
+.inner-card {
+    width: 80%;
+    margin: 0 auto;
+}
+.copy-collection__copy{}
+
+@media only screen and (min-width: 1024px){
+    .card-collection-wrapper{
+        display: flex;
+        /* padding: 25px 0; */
+    }
+    .copy-collection__copy{
+        padding: 0 0 70px;
+    }
+}

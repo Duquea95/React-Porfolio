@@ -1,0 +1,35 @@
+.split-copy--container{
+    padding: 25px 0;
+}
+.split-title{
+    text-align: left;
+    margin-bottom: 15px;
+}
+.title-top{
+    margin-bottom: 10px;    
+}
+
+.title-top p{
+    font-size: 1.5rem;
+}
+.title-bottom p{
+    font-size: 2rem
+}
+
+.split-title div p{
+    letter-spacing: 0.12rem;
+}
+.split-copy p{
+    font-size: 1.1rem;
+    letter-spacing: 0.07rem;
+}
+
+@media only screen and (min-width: 1024px){
+    .split-copy--container {
+        display: flex;
+        padding: 55px 0 25px;
+    }
+    .split-copy--container > div{
+        width: 50%;
+    }
+}
